@@ -1,5 +1,5 @@
 timestamps {
-  node ('ads-agent') {
+  agent any {
     try {
       deleteDir()
       properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '15'))])
