@@ -1,3 +1,5 @@
+@Library('jenkins-shared-library') _
+deploy()
 timestamps {
   agent any {
     try {
